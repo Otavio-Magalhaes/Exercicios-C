@@ -4,7 +4,7 @@ int main(void) {
 
         
 //                    Questão 1
-/*
+
   int a = 0, b = 0,c = 0, d = 0;
 
   printf("Digite o primeiro valor a ser salvo: ");
@@ -23,11 +23,11 @@ int main(void) {
   a = d; // inverti os valores, fazendo com que "D" atribuisse o valor de "B" à "A", ja que ele possuia o valor de "B" salvo
 
   printf("Com os valores invertidos a primeira variavel fica com %d\n e a segunda com %d",a ,b);
-*/
+
 
 
   
-/*  
+ 
 //                       Questão 2
 
 
@@ -41,9 +41,9 @@ int main(void) {
  
   printf("O sucessor de %d é %d \n",val, suc);
   printf("O antecessor de %d é %d", val, ant);
-*/
 
-/*
+
+
 //                    Questão3
 
   float valgasto = 0, valtotal = 0, serv = 0; // serv é a variavel referente aos 10% do serviço do garçom
@@ -55,8 +55,8 @@ int main(void) {
   valtotal = serv + valgasto;
   
   printf("O Valor total da conta é de R$ %.2f",valtotal);
-  */
-/*
+  
+
   //                    Questão 4
 
   float raio = 0, perimetro = 0, area = 0;
@@ -70,7 +70,7 @@ int main(void) {
   printf("A área é: %.2f",area);
 */
 
-  /*
+  
 
   //                    Questão 5
   
@@ -82,9 +82,9 @@ int main(void) {
   scanf("%d",&c);
   convert = (9*c+160)/5;
   printf("A temperatura em F é de : %d Fº",convert);
-  */
   
-/*
+  
+
   //                    Questão 6
   int codigo = 0;
   float total = 0, valormin=0, quantidadeconsumida = 0, valoruni = 0;
@@ -109,8 +109,8 @@ int main(void) {
     printf("A conta de luz do cliente(%d) é de  R$ %.2f\n",codigo, valormin);
     printf("Com a quantidade de %.2f KW consumidos",quantidadeconsumida);
     }
-*/
-/*
+
+
 //                  Questão 7
   int n1 =0, n2 = 0;
 
@@ -131,8 +131,8 @@ int main(void) {
   else{
     printf("Os valores %d e %d são iguais",n1,n2);
   }
-*/
-/*
+
+
 //               Quetão 8
 float av1 = 0, av2 = 0, mediafinal=0;
 
@@ -155,8 +155,8 @@ float av1 = 0, av2 = 0, mediafinal=0;
   else{ // verifica se a media do aluno  é igual a 5 e menor do que 6, (5 <= media < 6) se for, mostrar que o aluno esta em AV3
     printf("Á média do aluno é %.2f\n portanto está em AV3",mediafinal);
   }
-  */
-/*
+  
+
 //                                    Questão 9 
   
   int a = 0, b = 0, c =0 ;
@@ -194,10 +194,10 @@ float av1 = 0, av2 = 0, mediafinal=0;
       printf("A ordem decrescente é: \n%d \n%d \n%d",c,b,a);      //C>B>A
     }
 
-*/
+
   
 
-/*
+
 //                                      Questão 10
 int val1 = 0, val2 = 0, opcao = 0, resultado = 0;
 
@@ -239,9 +239,9 @@ int val1 = 0, val2 = 0, opcao = 0, resultado = 0;
     break;
   }
   
-*/
+
 //                                  Questão 11     
-/*
+
 int opcao = 0, conta = 0;
 float taxa = 0, total = 0, consumo=0, totconsumo = 0;
 //totconsumo é referente ao total consumido menos o consumo inicial pra comercio e industia
@@ -302,8 +302,8 @@ float taxa = 0, total = 0, consumo=0, totconsumo = 0;
     printf("Opção invalida!");
     break;
 }
- */
-/*
+ 
+
 //                                Questão 12
   int dia = 0, tipofita=0;
   float preco = 0, desconto =0, precofinal = 0, acrescimo=0;
@@ -418,9 +418,9 @@ float taxa = 0, total = 0, consumo=0, totconsumo = 0;
     break;
     
   }
-*/
+
 //                            Questão 13
-/*
+
 
 int i = 0, a = 0,b = 0,c = 0;
 
@@ -530,7 +530,7 @@ int i = 0, a = 0,b = 0,c = 0;
       printf("Opção invalida");
       break;
   }
-  */
+  
 
     
   
@@ -539,7 +539,7 @@ int i = 0, a = 0,b = 0,c = 0;
 
   
 //                                Questão14
- /*
+ 
   float preco = 0;
   int escolha;
   
@@ -585,6 +585,6 @@ int i = 0, a = 0,b = 0,c = 0;
   }
   
   printf("O valor final do Veiculo com a customização é de %.2f",preco);
-*/
+
   return 0; 
 }
